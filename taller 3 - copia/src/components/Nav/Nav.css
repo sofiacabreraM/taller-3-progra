@@ -1,0 +1,36 @@
+.bar-search{
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.bar-search:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media screen and (max-width: 600px) {
+    .bar-search {
+      width: 100%;
+      max-width: none;
+    }
+  }
+  .not_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: aqua;
+  }
